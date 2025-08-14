@@ -45,4 +45,51 @@ Clone or download this repo into Termux.
 ```bash
 bash install.sh
 ```
+### 3. Allow storage access in Termux (only once)
+```bash
+termux-setup-storage
+```
+### 4. Done
 
+BTCwatch is now synced with your Potentia grid.
+You can run it anytime manually:
+```bash
+btcwatch
+```
+### Where It Stores Data
+
+All logs are in:
+```bash
+~/potentia/drops/btcwatch/btcwatch.log
+```
+
+This is your private intel vault — not uploaded anywhere.
+
+### Telegram Alerts (Optional)
+
+If you want Telegram notifications:
+```markdown
+Create a Telegram bot via @BotFather
+
+Get your bot token and your chat ID
+
+Add them to your Potentia config file:
+
+nano ~/potentia/config/potentia.env
+
+
+Add these lines:
+
+BOT_TOKEN=your_bot_token
+CHAT_ID=your_chat_id
+
+```
+Save & exit. BTCwatch will now send updates to Telegram.
+
+### Potentia Promise
+
+This isn’t “just another crypto tracker.”
+It’s signal without noise — and once you have it, it’s yours.
+No upgrades. No expiry. No upsell.
+
+💡 Built on the Potentia Protocol — ready for future drops without reinstalling.
